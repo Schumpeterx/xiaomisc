@@ -40,9 +40,9 @@
 					<div class="gouwuche fr"><a href="">购物车</a></div>
 					<div class="fr">
 						<ul>
-							<li><a href="./login.html" target="_blank">登录</a></li>
+							<li><a href="MySer?op=logiN" target="_self">登录</a></li>
 							<li>|</li>
-							<li><a href="./register.html" target="_blank" >注册</a></li>
+							<li><a href="MySer?op=addU1" target="_self" >注册</a></li>
 							<li>|</li>
 							<li><a href="">消息通知</a></li>
 						</ul>
@@ -95,32 +95,32 @@
 			<div class="biaoti center">小米手机</div>
 			<div class="main center">
 				<div class="mingxing fl mb20" style="border:2px solid #fff;width:230px;cursor:pointer;" onmouseout="this.style.border='2px solid #fff'" onmousemove="this.style.border='2px solid red'">
-					<div class="sub_mingxing"><a href="./xiangqing.html" target="_blank"><img src="./image/liebiao_xiaomi6.jpg" alt=""></a></div>
-					<div class="pinpai"><a href="./xiangqing.html" target="_blank">小米6</a></div>
+					<div class="sub_mingxing"><a href="MySer?op=selectGoods&gid=1" target="_blank"><img src="./image/liebiao_xiaomi6.jpg" alt=""></a></div>
+					<div class="pinpai"><a href="MySer?op=selectGoods&gid=1" target="_blank">小米6</a></div>
 					<div class="youhui">5.16早10点开售</div>
 					<div class="jiage">2499.00元</div>
 				</div>
 				<div class="mingxing fl mb20" style="border:2px solid #fff;width:230px;cursor:pointer;" onmouseout="this.style.border='2px solid #fff'" onmousemove="this.style.border='2px solid red'">
-					<div class="sub_mingxing"><a href=""><img src="./image/liebiao_xiaomi5c.jpg" alt=""></a></div>
-					<div class="pinpai"><a href="">小米手机5c</a></div>
+					<div class="sub_mingxing"><a href="MySer?op=selectGoods&gid=2"><img src="./image/liebiao_xiaomi5c.jpg" alt=""></a></div>
+					<div class="pinpai"><a href="MySer?op=selectGoods&gid=2">小米手机5c</a></div>
 					<div class="youhui">搭载澎湃S1 八核高性能处理器</div>
 					<div class="jiage">1499.00元</div>
 				</div>
 				<div class="mingxing fl mb20" style="border:2px solid #fff;width:230px;cursor:pointer;" onmouseout="this.style.border='2px solid #fff'" onmousemove="this.style.border='2px solid red'">
-					<div class="sub_mingxing"><a href=""><img src="./image/liebiao_xiaomint2.jpg" alt=""></a></div>
-					<div class="pinpai"><a href="">小米Note 2</a></div>
+					<div class="sub_mingxing"><a href="MySer?op=selectGoods&gid=3"><img src="./image/liebiao_xiaomint2.jpg" alt=""></a></div>
+					<div class="pinpai"><a href="MySer?op=selectGoods&gid=3">小米Note 2</a></div>
 					<div class="youhui">5月9日-20日 小米Note 2 享花呗12期分期免息</div>
 					<div class="jiage">2799.00元</div>
 				</div>
 				<div class="mingxing fl mb20" style="border:2px solid #fff;width:230px;cursor:pointer;" onmouseout="this.style.border='2px solid #fff'" onmousemove="this.style.border='2px solid red'">
-					<div class="sub_mingxing"><a href=""><img src="./image/liebiao_xiaomimix.jpg" alt=""></a></div>
-					<div class="pinpai"><a href="">小米MIX</a></div>
+					<div class="sub_mingxing"><a href="MySer?op=selectGoods&gid=4"><img src="./image/liebiao_xiaomimix.jpg" alt=""></a></div>
+					<div class="pinpai"><a href="MySer?op=selectGoods&gid=4">小米MIX</a></div>
 					<div class="youhui">5月9日-20日小米MIX 享花呗12期分期免息</div>
 					<div class="jiage">3499.00元</div>
 				</div>
 				<div class="mingxing fl mb20" style="border:2px solid #fff;width:230px;cursor:pointer;" onmouseout="this.style.border='2px solid #fff'" onmousemove="this.style.border='2px solid red'">
-					<div class="sub_mingxing"><a href=""><img src="./image/liebiao_xiaomi5s.jpg" alt=""></a></div>
-					<div class="pinpai"><a href="">小米5s</a></div>
+					<div class="sub_mingxing"><a href="MySer?op=selectGoods&gid=5"><img src="./image/liebiao_xiaomi5s.jpg" alt=""></a></div>
+					<div class="pinpai"><a href="MySer?op=selectGoods&gid=5">小米5s</a></div>
 					<div class="youhui">“暗夜之眼”超感光相机 / 无孔式超声波</div>
 					<div class="jiage">1999.00元</div>
 				</div>
@@ -129,32 +129,32 @@
 			</div>
 			<div class="main center mb20">
 				<div class="mingxing fl mb20" style="border:2px solid #fff;width:230px;cursor:pointer;" onmouseout="this.style.border='2px solid #fff'" onmousemove="this.style.border='2px solid red'">
-					<div class="sub_mingxing"><a href=""><img src="./image/liebiao_xiaomi5.jpg" alt=""></a></div>
-					<div class="pinpai"><a href="">小米手机5</a></div>
+					<div class="sub_mingxing"><a href="MySer?op=selectGoods&gid=6"><img src="./image/liebiao_xiaomi5.jpg" alt=""></a></div>
+					<div class="pinpai"><a href="MySer?op=selectGoods&gid=6">小米手机5</a></div>
 					<div class="youhui">骁龙820处理器 / UFS 2.0 闪存</div>
 					<div class="jiage">1799.00元</div>
 				</div>
 				<div class="mingxing fl mb20" style="border:2px solid #fff;width:230px;cursor:pointer;" onmouseout="this.style.border='2px solid #fff'" onmousemove="this.style.border='2px solid red'">
-					<div class="sub_mingxing"><a href=""><img src="./image/liebiao_hongmin4.jpg" alt=""></a></div>
-					<div class="pinpai"><a href="">红米Note 4</a></div>
+					<div class="sub_mingxing"><a href="MySer?op=selectGoods&gid=7"><img src="./image/liebiao_hongmin4.jpg" alt=""></a></div>
+					<div class="pinpai"><a href="MySer?op=selectGoods&gid=7">红米Note 4</a></div>
 					<div class="youhui">十核旗舰处理器 / 全金属一体化机身 </div>
 					<div class="jiage">1399.00元</div>
 				</div>
 				<div class="mingxing fl mb20" style="border:2px solid #fff;width:230px;cursor:pointer;" onmouseout="this.style.border='2px solid #fff'" onmousemove="this.style.border='2px solid red'">
-					<div class="sub_mingxing"><a href=""><img src="./image/pinpai3.png" alt=""></a></div>
-					<div class="pinpai"><a href="">小米手机5 64GB</a></div>
+					<div class="sub_mingxing"><a href="MySer?op=selectGoods&gid=8"><img src="./image/pinpai3.png" alt=""></a></div>
+					<div class="pinpai"><a href="MySer?op=selectGoods&gid=8">小米手机5 64GB</a></div>
 					<div class="youhui">5月9日-10日，下单立减100元</div>
 					<div class="jiage">1799元</div>
 				</div>
 				<div class="mingxing fl mb20" style="border:2px solid #fff;width:230px;cursor:pointer;" onmouseout="this.style.border='2px solid #fff'" onmousemove="this.style.border='2px solid red'">
-					<div class="sub_mingxing"><a href=""><img src="./image/liebiao_hongmin42.jpg" alt=""></a></div>
-					<div class="pinpai"><a href="">红米4</a></div>
+					<div class="sub_mingxing"><a href="MySer?op=selectGoods&gid=9"><img src="./image/liebiao_hongmin42.jpg" alt=""></a></div>
+					<div class="pinpai"><a href="MySer?op=selectGoods&gid=9">红米4</a></div>
 					<div class="youhui">2.5D 玻璃，金属一体化机身</div>
 					<div class="jiage">999.00元</div>
 				</div>
 				<div class="mingxing fl mb20" style="border:2px solid #fff;width:230px;cursor:pointer;" onmouseout="this.style.border='2px solid #fff'" onmousemove="this.style.border='2px solid red'">
-					<div class="sub_mingxing"><a href=""><img src="./image/liebiao_hongmin4x.jpg" alt=""></a></div>
-					<div class="pinpai"><a href="">红米Note 4X 全网通版</a></div>
+					<div class="sub_mingxing"><a href="MySer?op=selectGoods&gid=10"><img src="./image/liebiao_hongmin4x.jpg" alt=""></a></div>
+					<div class="pinpai"><a href="MySer?op=selectGoods&gid=10">红米Note 4X 全网通版</a></div>
 					<div class="youhui">多彩金属 / 4100mAh 超长续航</div>
 					<div class="jiage">1299.00元</div>
 				</div>

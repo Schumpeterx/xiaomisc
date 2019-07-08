@@ -11,4 +11,13 @@
   <insert id="insertUsers" parameterType="Users">
   insert into user values(null,#{username},#{phone},#{password},null,null,null)
   </insert>
+  
+   <select id="selectGoods" parameterType="int" resultType="Goods">
+    select * from goods where gid = #{gid} 
+  </select>
+  
+     <select id="listGoods"  resultType="Goods">
+    select * from goods 
+  </select>
+  
  </mapper>

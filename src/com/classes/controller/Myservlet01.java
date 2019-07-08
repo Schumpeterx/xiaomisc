@@ -9,6 +9,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.omg.CORBA.Request;
+
+import com.classes.dao.vo.Goods;
 import com.classes.dao.vo.Users;
 import com.classes.service.UsersService;
 
@@ -39,11 +42,25 @@ public class Myservlet01 extends HttpServlet {
 			this.login1(req, resp);
 		}else if("addU1".equals(op)) {
 			this.addU1(req, resp);
+		}else if("selectGoods".equals(op)) {
+			this.selectGoods(req, resp);
 		}
-		
 	
 	}
 	
+	public void selectGoods(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException
+	{
+		String gid=req.getParameter("gid");
+		int gids=Integer.parseInt(gid);
+		UsersService us=new UsersService();
+		PrintWriter out=resp.getWriter();
+		Goods goods=new Goods();
+		goods=us.selectGoods(gids);
+//		out.println(goods.getGname());  到这一步已经从liebiao.jsp获取了用户点击的商品，接下来跳向商品详情页面xiangqing.jsp
+		req.setAttribute("goods", goods);
+		req.getRequestDispatcher("xiangqing.jsp").forward(req, resp);
+		
+	}
 	
 	public void login(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
 		resp.setContentType("text/html;charset=utf-8");
