@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <%@ page language="java" import="com.classes.dao.vo.Users"%>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -40,9 +41,7 @@
 					<div class="gouwuche fr"><a href="">购物车</a></div>
 					<div class="fr">
 						<ul>
-							<li><a href="MySer?op=logiN1" target="_blank">登陆</a></li><!--  -->
-							<li>|</li>
-							<li><a href="MySer?op=addU1" target="_blank" >注册</a></li>
+							<li><%String username = (String)request.getAttribute("username");%>您好，<%=username %> </a></li>
 							<li>|</li>
 							<li><a href="">消息通知</a></li>
 						</ul>

@@ -59,18 +59,25 @@ public class Myservlet01 extends HttpServlet {
 		
 		UsersService us=new UsersService();
 		Users user=us.login(u);
+		int uid=us.selectid(u);
 		PrintWriter out=resp.getWriter();
 		
+		
 		if(user==null) {
-			out.println("<script type=\"text/javascript\">\r\n" +"alert(\"登陆成功\");\r\n"+"location(\"MySer?op=logiN\");\r\n" + "</script>");
+			out.println("<script type=\"text/javascript\">\r\n" +"alert(\"登陆失败\");\r\n" + "</script>");
 			req.getRequestDispatcher("login.jsp").forward(req, resp);
 		}else {
-			out.println("<script type=\"text/javascript\">\r\n" + "alert(\"登陆成功\");\r\n" + "location(\"MySer?op=indexU\");\r\n" + "</script>");
+			out.println("<script type=\"text/javascript\">\r\n" + "alert(\"登陆成功\");\r\n" +  "</script>");
+			
+			req.setAttribute("username", username);
+			req.setAttribute("uid", uid);//传参数
+			req.getRequestDispatcher("index1.jsp").forward(req, resp);
 		}
+		
 	}
 	
 	public void index(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		req.getRequestDispatcher("index.jsp").forward(req, resp);
+		req.getRequestDispatcher("index1.jsp").forward(req, resp);
 	}
 	
 	

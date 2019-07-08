@@ -23,4 +23,11 @@ public class UsersService {
 		return i;
 	}
 	
+	public int selectid(Users u) {
+		SqlSession session=DButil.getSession();
+		UsersMapper um=session.getMapper(UsersMapper.class);
+		int id=um.selectid(u);
+		return id;
+	}
+	
 }
